@@ -18,6 +18,8 @@
 &lt;p&gt;A Windows app that lets you play Guild Wars 2 using a MIDI piano keyboard. It translates MIDI inputs to keyboard keys and automatically adjusts timing based on your ping. Built from scratch in C.&lt;/p&gt;
 &lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
 &lt;p&gt;You can download the application directly or build the solution yourselves in Visual Studio.&lt;/p&gt;
+&lt;p&gt;Download binaries from the release page:
+&lt;a href=&#34;https://github.com/pfrun0/GW2VisualMIDI/releases/tag/v1.0.0&#34;&gt;https://github.com/pfrun0/GW2VisualMIDI/releases/tag/v1.0.0&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Github Repo link for building:
 &lt;a href=&#34;https://github.com/pfrun0/GW2VisualMIDI&#34;&gt;https://github.com/pfrun0/GW2VisualMIDI&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
