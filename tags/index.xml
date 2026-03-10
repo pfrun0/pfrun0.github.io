@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on pfrun0</title>
-    <link>http://localhost/tags/</link>
+    <link>https://pfrun0.github.io/tags/</link>
     <description>Recent content in Tags on pfrun0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pfrun0.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

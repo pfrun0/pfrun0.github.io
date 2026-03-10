@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pfrun0</title>
-    <link>http://localhost/</link>
+    <link>https://pfrun0.github.io/</link>
     <description>Recent content on pfrun0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pfrun0.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GW2VisualMIDI: Play Guild Wars 2 instruments with a real piano</title>
-      <link>http://localhost/posts/pianoapp/</link>
+      <link>https://pfrun0.github.io/posts/pianoapp/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/posts/pianoapp/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/nWhole_Piano.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+      <guid>https://pfrun0.github.io/posts/pianoapp/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pfrun0.github.io/pianoapp/nWhole_Piano.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-this&#34;&gt;What is this?&lt;/h2&gt;
 &lt;p&gt;A Windows app that lets you play Guild Wars 2 using a MIDI piano keyboard. It translates MIDI inputs to keyboard keys and automatically adjusts timing based on your ping. Built from scratch in C.&lt;/p&gt;
 &lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
@@ -22,7 +22,7 @@
 &lt;a href=&#34;https://github.com/pfrun0/GW2VisualMIDI&#34;&gt;https://github.com/pfrun0/GW2VisualMIDI&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;video width=&#34;100%&#34; controls&gt;
-  &lt;source src=&#34;http://localhost/pianoapp/GW2VisualMIDI_Demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://pfrun0.github.io/pianoapp/GW2VisualMIDI_Demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;h3 id=&#34;real-time-midi-translation&#34;&gt;Real-time MIDI Translation&lt;/h3&gt;
 &lt;ul&gt;
@@ -51,7 +51,7 @@
 &lt;li&gt;Plug in your MIDI device and open up Guild Wars 2 before running the app&lt;/li&gt;
 &lt;li&gt;Equip your instrument in game and shift to the middle octave (It should be the green in your effects)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/middle_octave.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pfrun0.github.io/pianoapp/middle_octave.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Start playing from the middle octave on your MIDI device&lt;/li&gt;
 &lt;li&gt;Thats it! Everything should work from there&lt;/li&gt;
@@ -74,9 +74,9 @@
 &lt;li&gt;Play a piano note, then press the key you want for that note&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;(Key combos with Shift, Alt and Ctrl are supported)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/Keybind_demo.gif&#34; alt=&#34;gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pfrun0.github.io/pianoapp/Keybind_demo.gif&#34; alt=&#34;gif&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The default keybinds have the white notes on 1-8, the black notes on shift+(1-5) and the octave shifts as 9 and 0&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/default_notes.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pfrun0.github.io/pianoapp/default_notes.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;For manual ping rebinding Press F10 and follow the prompts: (if not in Admin mode for automatic ping)&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Enter octave delay (ms) and press Enter to confirm&lt;/li&gt;
