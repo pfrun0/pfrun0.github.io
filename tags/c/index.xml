@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pfrun0.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GW2VisualMIDI: Play Guild Wars 2 instruments with a real piano</title>
-      <link>https://pfrun0.github.io/posts/pianoapp/</link>
+      <link>https://pfrun0.github.io/posts/gw2visualmidi/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://pfrun0.github.io/posts/pianoapp/</guid>
+      <guid>https://pfrun0.github.io/posts/gw2visualmidi/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://pfrun0.github.io/Pianoapp/nWhole_Piano.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-this&#34;&gt;What is this?&lt;/h2&gt;
 &lt;p&gt;A Windows app that lets you play Guild Wars 2 using a MIDI piano keyboard. It translates MIDI inputs to keyboard keys and automatically adjusts timing based on your ping. Built from scratch in C.&lt;/p&gt;
