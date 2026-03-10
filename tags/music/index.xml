@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on pfrun0</title>
+    <link>http://localhost/tags/music/</link>
+    <description>Recent content in Music on pfrun0</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GW2VisualMIDI: Play Guild Wars 2 instruments with a real piano</title>
+      <link>http://localhost/posts/pianoapp/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/posts/pianoapp/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/nWhole_Piano.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-this&#34;&gt;What is this?&lt;/h2&gt;
+&lt;p&gt;A Windows app that lets you play Guild Wars 2 using a MIDI piano keyboard. It translates MIDI inputs to keyboard keys and automatically adjusts timing based on your ping. Built from scratch in C.&lt;/p&gt;
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+&lt;p&gt;You can download the application directly or build the solution yourselves in Visual Studio.&lt;/p&gt;
+&lt;p&gt;Github Repo link for building:
+&lt;a href=&#34;https://github.com/pfrun0/GW2VisualMIDI&#34;&gt;https://github.com/pfrun0/GW2VisualMIDI&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;video width=&#34;100%&#34; controls&gt;
+  &lt;source src=&#34;http://localhost/pianoapp/GW2VisualMIDI_Demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h3 id=&#34;real-time-midi-translation&#34;&gt;Real-time MIDI Translation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Maps 13 piano keys (one octave) to keyboard keybinds&lt;/li&gt;
+&lt;li&gt;Has a range of 3 octaves for all Guild Wars 2 instruments&lt;/li&gt;
+&lt;li&gt;Fully rebindable to any key combinations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;network-adaptive-timing&#34;&gt;Network-Adaptive Timing&lt;/h3&gt;
+&lt;p&gt;The app measures your actual ping and adjusts delays accordingly:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Octave swapping seems to need to be validated by the server. Playing too fast causes inputs to be ignored. After switching octaves a delay based on your ping is added in case you need to switch again quickly. This makes sure that the server has time to process your inputs even with higher latency/ping spikes.&lt;/p&gt;
+&lt;p&gt;!! &lt;strong&gt;However&lt;/strong&gt; for the program to have access to the Windows resource monitor (to get the ping) &lt;strong&gt;the app must be run in Administrator mode&lt;/strong&gt;. !!&lt;/p&gt;
+&lt;p&gt;For those who do not want to do this the default delay for octave swapping is 70ms. This is also adjustable manually by pressing F10&lt;/p&gt;
+&lt;h3 id=&#34;visual-feedback&#34;&gt;Visual Feedback&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;88-key piano display showing pressed keys in real-time (runs in the background perfectly if only on 1 monitor)&lt;/li&gt;
+&lt;li&gt;Text overlay displaying sent commands&lt;/li&gt;
+&lt;li&gt;Auto-scrolling to keep recent actions visible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;copy-what-you-played&#34;&gt;Copy what you played&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You can copy the notes you played in the keys you set with F9&lt;/li&gt;
+&lt;li&gt;Makes it easy to make tabs for yourself or your friends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Plug in your MIDI device and open up Guild Wars 2 before running the app&lt;/li&gt;
+&lt;li&gt;Equip your instrument in game and shift to the middle octave (It should be the green in your effects)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/middle_octave.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start playing from the middle octave on your MIDI device&lt;/li&gt;
+&lt;li&gt;Thats it! Everything should work from there&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;F6&lt;/strong&gt; - Save keybindings&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F7&lt;/strong&gt; - Clear text display&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F8&lt;/strong&gt; - Enter/exit rebind mode&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F9&lt;/strong&gt; - Copy display text to clipboard&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F10&lt;/strong&gt; - Set octave shift delay manually&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;F11&lt;/strong&gt; - Restore default bindings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(These keys are used to avoid keybind conflicts that different people may have)&lt;/p&gt;
+&lt;h2 id=&#34;rebinding&#34;&gt;Rebinding&lt;/h2&gt;
+&lt;p&gt;For piano key rebinding Press F8 and follow the prompts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Press a key for &amp;ldquo;octave down&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Press a key for &amp;ldquo;octave up&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Play a piano note, then press the key you want for that note&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(Key combos with Shift, Alt and Ctrl are supported)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/Keybind_demo.gif&#34; alt=&#34;gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The default keybinds have the white notes on 1-8, the black notes on shift+(1-5) and the octave shifts as 9 and 0&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost/pianoapp/default_notes.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For manual ping rebinding Press F10 and follow the prompts: (if not in Admin mode for automatic ping)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Enter octave delay (ms) and press Enter to confirm&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Tip&lt;/strong&gt;&lt;/em&gt;: &lt;em&gt;You can view your in game ping from the bottom right of your options menu and should set it slightly higher than what it gives you so the shifts dont skip&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saving your bindings with F6 will have them load automatically on startup.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;building&#34;&gt;Building&lt;/h2&gt;
+&lt;p&gt;Requires:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio 2019+ for self building&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;
+&lt;p&gt;Bleuuart for the piano assets: &lt;a href=&#34;https://bleuuart.carrd.co/&#34;&gt;https://bleuuart.carrd.co/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

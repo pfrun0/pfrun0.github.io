@@ -1,0 +1,11 @@
+#header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex: 1;
+}
+
+#header nav .nav-bar-item:last-child {
+  margin-left: auto;
+}
