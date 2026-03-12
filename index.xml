@@ -51,6 +51,7 @@
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Plug in your MIDI device and open up Guild Wars 2 before running the app&lt;/li&gt;
+&lt;li&gt;If the midi device detected isn&amp;rsquo;t the one you want to use press &lt;strong&gt;Right Ctrl&lt;/strong&gt; to cycle through your devices and press Enter to confirm&lt;/li&gt;
 &lt;li&gt;Equip your instrument in game and shift to the middle octave (It should be the green in your effects)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://pfrun0.github.io/Pianoapp/middle_octave.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
@@ -60,6 +61,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Right Ctrl&lt;/strong&gt; - Cycle through midi devices&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;F6&lt;/strong&gt; - Save keybindings&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;F7&lt;/strong&gt; - Clear text display&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;F8&lt;/strong&gt; - Enter/exit rebind mode&lt;/li&gt;
@@ -89,6 +91,12 @@
 &lt;p&gt;Requires:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Visual Studio 2019+ for self building&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recent-updatespatches&#34;&gt;Recent updates/patches:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed issue where the ping given would give an insanely large number freezing the app completely for octave delay&lt;/li&gt;
+&lt;li&gt;Added resize feature instead of monitor clamping the app&lt;/li&gt;
+&lt;li&gt;Added MIDI cycling feature to select another device if more than 1 is detected&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;
 &lt;p&gt;Bleuuart for the piano assets: &lt;a href=&#34;https://bleuuart.carrd.co/&#34;&gt;https://bleuuart.carrd.co/&lt;/a&gt;&lt;/p&gt;
